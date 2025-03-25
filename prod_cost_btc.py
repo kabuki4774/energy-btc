@@ -94,7 +94,7 @@ st.markdown(
 st.sidebar.header("Adjust Assumptions")
 st.sidebar.subheader("Current Network Parameters")
 current_hash_rate_EH = st.sidebar.number_input(
-    "Network Hash Rate (EH/s)", value=878, step=0.01, help="Enter the current network hash rate in exahashes per second (EH/s)."
+    "Network Hash Rate (EH/s)", value=878.0, step=1.0, help="Enter the current network hash rate in exahashes per second (EH/s)."
 )
 current_efficiency = st.sidebar.number_input(
     "Average ASIC Efficiency (J/TH)", value=21.0, step=1.0, help="Enter the average energy consumption in Joules per terahash (J/TH)."
