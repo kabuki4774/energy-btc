@@ -3,3 +3,5 @@ requests
 numpy
 pandas
 matplotlib
+math
+altair
